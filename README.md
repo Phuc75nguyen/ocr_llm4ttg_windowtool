@@ -39,23 +39,3 @@ OCR-LLM-Windows/
     ├── install_deps.ps1              # Cài Python libs & docTR
     └── run_app.bat                   # Khởi động app GUI
 ```
-## 2. Logic Flow
-    ``` bash
-    [Người dùng chọn file PDF/ảnh]
-        ↓
- docTR OCR Engine
- (nhận dạng tiếng Việt/Anh)
-        ↓
- Text Cleanup
- (chuẩn hoá Unicode, sửa lỗi OCR, thêm dấu)
-        ↓
- Ollama Local LLM (phi3)
- (phân tích, chuẩn hoá ngữ cảnh, chính tả)
-        ↓
- Xuất kết quả:
-  ├── raw_ocr.txt      (văn bản gốc OCR)
-  ├── normalized.txt   (văn bản đã sửa & chuẩn)
-  └── meta.json        (thông tin file, thời gian, model)
-
-
-
