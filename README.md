@@ -1,11 +1,11 @@
 # OCR_LLM4TTG_WindowTool
 ---
 ## 1. System Architecture
-    ```text
+    ```bash
 OCR-LLM-Windows/
  ├── README.md                         # Hướng dẫn cài đặt & chạy trên Windows
- ├── requirements.txt                  # python-doctr, torch(cpu), pillow, opencv-python, requests, pypdfium2
- ├── .env.example                      # OLLAMA_HOST=http://localhost:11434 ; MODEL=phi3
+ ├── requirements.txt                  # python-doctr, torch(cpu), pillow, opencv-python, requests,pypdfium2
+ ├── .env.example                      # OLLAMA_HOST
  │
  ├── app_gui/
  │   └── main.py                       # Giao diện Tkinter: chọn file, chạy OCR → LLM → xem kết quả
@@ -29,7 +29,7 @@ OCR-LLM-Windows/
  │   ├── config.yaml                   # engine=doctr, model=phi3, timeout, language=vi
  │   └── dictionaries/
  │       ├── legal_terms.txt           # Từ khoá pháp lý
- │       └── finance_terms.txt         # Từ khoá tài chính / vay vốn
+ │       └── finance_terms.txt         # Từ khoá...
  │
  └── scripts/
     ├── install_ollama.ps1            # Cài Ollama & pull model phi3
