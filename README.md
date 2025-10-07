@@ -2,7 +2,7 @@
 ---
 ## 1. System Architecture
     ```bash
-OCR-LLM-Windows/
+ OCR-LLM-Windows/
  ├── README.md                         # Hướng dẫn cài đặt & chạy trên Windows
  ├── requirements.txt                  # python-doctr, torch(cpu), pillow, opencv-python, requests,pypdfium2
  ├── .env.example                      # OLLAMA_HOST
@@ -35,7 +35,6 @@ OCR-LLM-Windows/
     ├── install_ollama.ps1            # Cài Ollama & pull model phi3
     ├── install_deps.ps1              # Cài Python libs & docTR
     └── run_app.bat                   # Khởi động app GUI
-
 ```
 ---
 ## 2. Logic Flow
