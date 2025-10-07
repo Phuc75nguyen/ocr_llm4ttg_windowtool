@@ -1,6 +1,4 @@
 # OCR_LLM4TTG_WindowTool
----
-# OCR_LLM4TTG_WindowTool
 
 ---
 
@@ -41,7 +39,6 @@ OCR-LLM-Windows/
     ├── install_deps.ps1              # Cài Python libs & docTR
     └── run_app.bat                   # Khởi động app GUI
 ```
----
 ## 2. Logic Flow
     ``` bash
     [Người dùng chọn file PDF/ảnh]
@@ -59,7 +56,6 @@ OCR-LLM-Windows/
   ├── raw_ocr.txt      (văn bản gốc OCR)
   ├── normalized.txt   (văn bản đã sửa & chuẩn)
   └── meta.json        (thông tin file, thời gian, model)
-```
----
+
 
 
